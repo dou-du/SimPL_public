@@ -61,7 +61,7 @@
 
 			<div class="form-group row mb-0">
 				<div class="col-3 offset-3" style="text-align:left;">
-					<button type="button" class="btn btn-simpl" onclick="javascript:location.href='/register';">
+					<button type="button" class="btn btn-simpl" onclick="javascript:location.href='/register';" disabled>
 						{{ __('Register') }}
 					</button>
 				</div>
