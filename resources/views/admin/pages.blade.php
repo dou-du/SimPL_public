@@ -1141,7 +1141,6 @@ if($footer!==null){
 			},
 			success:function(ret){
 				if(ret.status === "Success"){
-					alert("Success");
 					pageNow = ret.message;
 					getPageList();
 				}else{
